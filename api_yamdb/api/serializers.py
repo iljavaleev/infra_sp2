@@ -67,7 +67,6 @@ class UserSerializer(serializers.ModelSerializer):
                 fields=('username', 'email'),
             ),
         )
-        
 
 
 class UserMeSerializer(serializers.ModelSerializer):
